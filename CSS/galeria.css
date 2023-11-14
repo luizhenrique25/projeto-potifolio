@@ -1,0 +1,41 @@
+#fotos {
+
+    background: #191970;
+    margin-top: 2%;
+}
+
+#fotos h2 {
+
+    margin-bottom: 2%;
+    font-size: 3rem;
+    
+}
+
+#fotos div {
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+}
+
+#fotos div img {
+
+    width: 30%;
+    height: 40%;
+    padding: 0% 2% ; 
+    object-fit: fill;
+    transition: all 1s ease-in-out;
+    
+}
+
+#fotos div img:hover {
+
+    border: 4px double goldenrod;
+    padding: 1rem;
+    transform: scale(150%);
+    
+}
